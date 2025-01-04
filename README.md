@@ -159,13 +159,13 @@ To run this project, you'll need:
 Here's a quick overview of the project structure:
 
 ```
-Online_LMS/
+OnlineLMS/
 ├── src/
 │   ├── dao/               # Contains DAO classes for data access operations
 │   ├── models/            # Contains data models like User, Course, Attendance, etc.
 │   ├── services/          # Contains service classes for user operations
 │   ├── utils/             # Contains utility classes, like DatabaseConnection
-│   └── Online_LMS.java    # Main class to run the application
+│   └── OnlineLMS.java     # Main class to run the application
 └── README.md
 ```
 
@@ -175,12 +175,12 @@ Online_LMS/
 
 1. **Compile and Run the Main Class**
 
-   - In your IDE, navigate to the `Online_LMS.java` file, right-click, and select `Run`.
+   - In your IDE, navigate to the `OnlineLMS.java` file, right-click, and select `Run`.
    - Alternatively, you can use the command line:
 
      ```bash
-     javac src/Online_LMS.java
-     java -cp src Online_LMS
+     javac src/OnlineLMS.java
+     java -cp src OnlineLMS
      ```
 
 ---
