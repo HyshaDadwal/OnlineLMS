@@ -3,6 +3,9 @@ package com.user.dao;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.eclipse.jdt.internal.compiler.ast.Assignment;
+
 import com.user.model.Assignments;
 
 public class AssignmentsDAO {
@@ -127,4 +130,9 @@ public class AssignmentsDAO {
             System.out.println("Problem in database connection!!");
         }
     }
+
+	public boolean updateAssignment(Assignment assignment) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

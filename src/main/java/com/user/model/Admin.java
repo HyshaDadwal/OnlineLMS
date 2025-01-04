@@ -12,10 +12,6 @@ public class Admin {
         this.phoneNumber = phoneNumber;
     }
 
-    // Default Constructor
-    public Admin() {
-    }
-
     // Getters and Setters
     public int getAdminId() {
         return adminId;

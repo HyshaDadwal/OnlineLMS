@@ -12,26 +12,26 @@
     <h1>Registration Form</h1>
     <form name="regForm" onsubmit="return validateForm()">
        <p>
-         <label form="name">Name:</label>
+         <label for="name">Name:</label>
          <input type="text" id="name" name="name" placeholder="Enter your full name"/>
          <span id="name-error" class="error-message"></span>    
        </p>
 
        <p>
-        <label form="address">Address:</label>
+        <label for="address">Address:</label>
         <input type="text" id="address" name="address" placeholder="Enter your address"/>
         <span id="address-error" class="error-message"></span>    
       </p>
 
       <p>
-        <label form="name">Email:</label>
+        <label for="name">Email:</label>
         <input type="text" id="email" name="email" placeholder="Enter your Email"/>
         <span id="email-error" class="error-message"></span>    
       </p>
 
 
       <p>
-        <label form="name">Password:</label>
+        <label for="name">Password:</label>
         <input type="password" id="password" name="password" placeholder="Enter your Password"/>
         <span id="password-error" class="error-message"></span>    
       </p>
@@ -54,7 +54,7 @@
       </p>
 
       <p>
-        <input type="checkbox" id="agree" nmae="agree" />
+        <input type="checkbox" id="agree" name="agree" />
         <label for="agree">I agree to the above information</label>
         <span id="agree-error" class="error-message"></span>   
       </p> 

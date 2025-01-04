@@ -8,7 +8,7 @@
     <h2>Login</h2>
     <form action="/user" method="post">
         <input type="hidden" name="action" value="login">
-        <label for="username">Username:</label>
+        <label for="username">username:</label>
         <input type="text" id="username" name="username" required>
         <br>
         <label for="password">Password:</label>
